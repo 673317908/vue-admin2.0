@@ -2,6 +2,8 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
+import "./styles/reset.css" // 重置样式
+import "./styles/index.min.css" // 公共样式
 
 Vue.config.productionTip = false;
 
