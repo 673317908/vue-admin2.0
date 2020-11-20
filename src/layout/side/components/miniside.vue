@@ -39,5 +39,6 @@ components:{
     width: 120px;
     background: purple;
     height: 100%;
+    transition: all .3s ease-in-out;
 }
 </style>

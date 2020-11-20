@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="layout_side_mini">
     <ul>
       <li>1</li>
       <li>2</li>
@@ -23,4 +23,7 @@ export default {
 </script>
 
 <style scoped lang="less">
+.layout_side_mini {
+  transition: all 0.3s ease-in-out;
+}
 </style>

@@ -20,6 +20,6 @@ export default {
   right: 0;
   background: blue;
   width: 100%;
-   z-index: 10;
+  z-index: 10;
 }
 </style>

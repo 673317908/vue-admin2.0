@@ -1,5 +1,7 @@
 <template>
-  <div class="layout_content ps_f ma_20">内容</div>
+  <div class="layout_content ps_f ma_20 pad_15">
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
@@ -19,7 +21,7 @@ export default {
   bottom: 0;
   left: 280px;
   background: blueviolet;
-  width: 100%;
   overflow: auto;
+  transition: all 0.3s ease-in-out;
 }
 </style>

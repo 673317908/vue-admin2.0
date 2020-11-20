@@ -28,5 +28,10 @@ export default {
   bottom: 0;
   z-index: 10;
   width: 160px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hidden {
+  left: -160px;
 }
 </style>
