@@ -5,8 +5,11 @@ import Layout from "../layout/index.vue"
 Vue.use(VueRouter);
 
 const routes = [{
-  path: "/index",
-  name: "Index",
+  path: "/",
+  redirect: {
+    name: "Index"
+  },
+  title: "首页",
   component: Layout,
   children: [{
     path: "/index",
